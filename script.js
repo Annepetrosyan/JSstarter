@@ -83,4 +83,4 @@ for (let i = 0; i < bill.length; i++) {
 }
 
 console.log(tips)
-console.log(total)
+// console.log(total)
