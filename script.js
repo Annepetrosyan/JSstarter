@@ -83,13 +83,25 @@
 // console.log(tips)
 // console.log(total)
 
-const states1 = ["Iowa", "Texas", "Oregon"];
-const states2 = ["Kansas", "California", "Nevada"];
+// const states1 = ["Iowa", "Texas", "Oregon"];
+// const states2 = ["Kansas", "California", "Nevada"];
 
-const states3 = states1.concat(states2);
-console.log(states3);
+// const states3 = states1.concat(states2);
+// console.log(states3);
 
-const animals = ["tiger", "lion", "elephant", "frog", "cow", "rabbit"];
+// const animals = ["tiger", "lion", "elephant", "frog", "cow", "rabbit"];
 
-console.log(animals.sort());
-console.log(animals.reverse());
+// console.log(animals.sort());
+// console.log(animals.reverse());
+
+function calcAge1(birthYeah) {
+  return 2037 - birthYeah;
+}
+const age1 = calcAge1(1991);
+
+const calcAge2 = function (birthYeah) {
+  return 2037 - birthYeah;
+};
+const age2 = calcAge2(1991);
+
+console.log(age1, age2);
