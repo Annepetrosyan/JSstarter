@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 // function triangle() { console.log(1 + 1) }
 
 // triangle()
@@ -26,11 +26,9 @@
 //     } else { return " Its a tie !!! " }
 // }
 
-
 // console.log(checkWinner())
 
 // const bill = 430
-
 
 // console.log(tipResult)
 
@@ -48,7 +46,7 @@
 // const total = [bills[0] + tips[0], bills[1] + tips[1], bills[2] + tips[2]];
 // console.log(total);
 
-// 
+//
 
 // for (let excercise = 1; excercise < 4; excercise++) {
 //     console.log(`starting excercise ${excercise} times`)
@@ -67,20 +65,31 @@
 
 // }
 
-const bill = [22, 295, 176, 440, 37, 105, 10, 1100, 86, 52]
-const tips = []
-const total = []
+// const bill = [22, 295, 176, 440, 37, 105, 10, 1100, 86, 52]
+// const tips = []
+// const total = []
 
-for (let i = 0; i < bill.length; i++) {
+// for (let i = 0; i < bill.length; i++) {
 
-    const tipResult = bill[i] >= 50
-        && bill[i] <= 500
-        ? `${(bill[i] / 100) * 15}`
-        : `${(bill[i] / 100) * 20}`;
-    tips.push(Number(tipResult));
-    const total1 = Number(tipResult) + Number(bill[i]);
-    total.push(total1)
-}
+//     const tipResult = bill[i] >= 50
+//         && bill[i] <= 500
+//         ? `${(bill[i] / 100) * 15}`
+//         : `${(bill[i] / 100) * 20}`;
+//     tips.push(Number(tipResult));
+//     const total1 = Number(tipResult) + Number(bill[i]);
+//     total.push(total1)
+// }
 
-console.log(tips)
+// console.log(tips)
 // console.log(total)
+
+const states1 = ["Iowa", "Texas", "Oregon"];
+const states2 = ["Kansas", "California", "Nevada"];
+
+const states3 = states1.concat(states2);
+console.log(states3);
+
+const animals = ["tiger", "lion", "elephant", "frog", "cow", "rabbit"];
+
+console.log(animals.sort());
+console.log(animals.reverse());
